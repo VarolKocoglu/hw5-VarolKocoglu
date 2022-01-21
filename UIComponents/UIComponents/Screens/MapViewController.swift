@@ -8,6 +8,8 @@
 import UIKit
 import MapKit
 
+var routes: [MKRoute] = []
+var num: Int = 0
 class MapViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
@@ -88,17 +90,57 @@ class MapViewController: UIViewController {
                 return
             }
 
-            guard let polyline: MKPolyline = response?.routes.first?.polyline else { return }
-            self.mapView.addOverlay(polyline, level: .aboveLabels)
+            if let tempRoutes = response?.routes {
+                routes = tempRoutes
+            }
+            guard let polyline: MKPolyline = routes.first?.polyline else { return }
+            
+            for route in routes {
+                self.mapView.addOverlay(route.polyline, level: .aboveLabels)
 
-            let rect = polyline.boundingMapRect
-            let region = MKCoordinateRegion(rect)
-            self.mapView.setRegion(region, animated: true)
-
+                let rect = route.polyline.boundingMapRect
+                let region = MKCoordinateRegion(rect)
+                self.mapView.setRegion(region, animated: true)
+            }
+            
             //Odev 1 navigate buttonlari ile diger route'lar gosterilmelidir.
         }
     }
-
+    
+    
+    //This function for left button for drawing new path
+    @IBAction func leftButton(_ sender: Any) {
+        let overlays = mapView.overlays
+        mapView.removeOverlays(overlays)
+        
+        if routes.count > num && num >= 0{
+            self.mapView.addOverlay(routes[num].polyline, level: .aboveLabels)
+            let rect = routes[num].polyline.boundingMapRect
+            let region = MKCoordinateRegion(rect)
+            self.mapView.setRegion(region, animated: true)
+            num = num + 1
+            num = num % 3
+        }
+    }
+    
+    //This function for right button for drawing new path
+    @IBAction func rightButton(_ sender: Any) {
+        let overlays = mapView.overlays
+        mapView.removeOverlays(overlays)
+        
+        if routes.count > num  && num >= 0{
+            self.mapView.addOverlay(routes[num].polyline, level: .aboveLabels)
+            let rect = routes[num].polyline.boundingMapRect
+            let region = MKCoordinateRegion(rect)
+            self.mapView.setRegion(region, animated: true)
+            num = num - 1
+            print(num)
+            if num == -1 {
+                num = 2
+            }
+        }
+    }
+    
     private lazy var locationManager: CLLocationManager = {
         let locationManager = CLLocationManager()
         locationManager.delegate = self

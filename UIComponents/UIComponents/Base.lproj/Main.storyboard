@@ -349,6 +349,24 @@
                                     <action selector="drawRouteButtonTapped:" destination="m2C-yw-bgz" eventType="touchUpInside" id="dxT-ra-PEs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rF3-xf-riJ">
+                                <rect key="frame" x="162" y="819" width="46" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="leftButton:" destination="m2C-yw-bgz" eventType="touchUpInside" id="zST-dV-NLX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUv-5d-PDy">
+                                <rect key="frame" x="216" y="819" width="46" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.right.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="rightButton:" destination="m2C-yw-bgz" eventType="touchUpInside" id="CdP-Mj-L5R"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cKL-Sn-6Te"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -881,6 +899,8 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
         <image name="bgImage" width="640" height="360"/>
         <image name="location" catalog="system" width="128" height="118"/>
         <systemColor name="labelColor">
