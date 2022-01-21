@@ -6,11 +6,13 @@
 
 - İlk başta muhtemel olan bütün yolları gösteriyor
 - Sonrasında sağ ve sol okları kullanarak muhtemel seçeneklerden birini seçiyor
+
 ![Ekran_Kaydı_2022-01-22_01_58_03_AdobeCreativeCloudExpress (1)](https://user-images.githubusercontent.com/50245363/150612331-30506f88-8915-4c66-b2c9-e4b1f98e2efd.gif)
  
  
 - İlk 10 saniye sayfa geçişinin otomatik olması için bekleniyor.
 - Sonrasında sonsuz scroll olduğunu göstermek için manuel olarak sayafaları değiştiriliyor.
+
 ![Ekran_Kaydı_2022-01-22_01_59_35_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/50245363/150612369-6a507080-4ef5-4433-86dc-781074b66851.gif)
 
 
