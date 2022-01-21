@@ -32,6 +32,7 @@
 		2391F724277732FC00269D7F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391F723277732FC00269D7F /* SecondViewController.swift */; };
 		2391F74C27788A4500269D7F /* DynamicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391F74B27788A4400269D7F /* DynamicTableViewController.swift */; };
 		2391F75127788C8300269D7F /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391F75027788C8300269D7F /* UIColorExtensions.swift */; };
+		E6B21B53279AF560004F9F61 /* PageHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B21B52279AF560004F9F61 /* PageHomeworkViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		2391F723277732FC00269D7F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2391F74B27788A4400269D7F /* DynamicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTableViewController.swift; sourceTree = "<group>"; };
 		2391F75027788C8300269D7F /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		E6B21B52279AF560004F9F61 /* PageHomeworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHomeworkViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				238A332E278AE3100070B74E /* WebViewContainerViewController.swift */,
 				238A3330278AF6A80070B74E /* MapViewController.swift */,
 				238FE2602792BA08000D742C /* PageViewController.swift */,
+				E6B21B52279AF560004F9F61 /* PageHomeworkViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				2391F724277732FC00269D7F /* SecondViewController.swift in Sources */,
 				238A3325278988260070B74E /* UITableViewExtensions.swift in Sources */,
 				238A331C278979550070B74E /* Constant.swift in Sources */,
+				E6B21B53279AF560004F9F61 /* PageHomeworkViewController.swift in Sources */,
 				23097ECB276F330D00AC8761 /* ViewController.swift in Sources */,
 				23097EC7276F330D00AC8761 /* AppDelegate.swift in Sources */,
 				238A332D278AD40D0070B74E /* TabbBarViewController.swift in Sources */,
