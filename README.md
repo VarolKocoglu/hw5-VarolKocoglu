@@ -1,3 +1,16 @@
+#Varol Koçoğlu HW5 Açıklama
+
+2 Ödevi de ayrı ayrı commitledim. Commitlere ayrı ayrı bakarak inceleyebilirsiniz
+Ödev 1 MapViewController classının içine eklendi.
+Ödev 2 ise PageHomeworkViewController classının içine eklendi ödevlerin kısa demoları :
+
+
+<div class="tenor-gif-embed" data-postid="24596356" data-share-method="host" data-width="100%" data-aspect-ratio="0.48995983935742976"><a href="https://tenor.com/view/gif-24596356">GIF</a> </div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+<div class="tenor-gif-embed" data-postid="24596391" data-share-method="host" data-width="100%" data-aspect-ratio="0.48995983935742976"><a href="https://tenor.com/view/gif-24596391">GIF</a> </div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+
+
 # HW5
 
 Odev 1: MapViewController’a bir toolbar eklenerek bu toolbar icerisinde sag ve sol oklar bulunacaktir. Kullanici bir rota olusturdugunda varsa alternatif rotalar da eszamanli kullaniciya gosterilecek, toolbara konulan ok tuslari ile rotalar arasi gecis saglanacaktir. 
