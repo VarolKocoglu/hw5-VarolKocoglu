@@ -4,10 +4,10 @@
 Ödev 1 MapViewController classının içine eklendi.
 Ödev 2 ise PageHomeworkViewController classının içine eklendi ödevlerin kısa demoları :
 
+![Ekran_Kaydı_2022-01-22_01_58_03_AdobeCreativeCloudExpress (1)](https://user-images.githubusercontent.com/50245363/150612331-30506f88-8915-4c66-b2c9-e4b1f98e2efd.gif)
 
-<div class="tenor-gif-embed" data-postid="24596356" data-share-method="host" data-width="100%" data-aspect-ratio="0.48995983935742976"><a href="https://tenor.com/view/gif-24596356">GIF</a> </div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+![Ekran_Kaydı_2022-01-22_01_59_35_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/50245363/150612369-6a507080-4ef5-4433-86dc-781074b66851.gif)
 
-<div class="tenor-gif-embed" data-postid="24596391" data-share-method="host" data-width="100%" data-aspect-ratio="0.48995983935742976"><a href="https://tenor.com/view/gif-24596391">GIF</a> </div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 
 
